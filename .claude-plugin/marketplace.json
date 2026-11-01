@@ -1,0 +1,16 @@
+{
+  "name": "twiddows-mods",
+  "description": "twiddows' Claude Code mods: cache-context-usage, a cache │ context │ usage bar above the prompt.",
+  "owner": {
+    "name": "twiddows"
+  },
+  "plugins": [
+    {
+      "name": "cache-context-usage",
+      "source": "./",
+      "description": "A one-line bar above the Claude Code prompt: cache │ context │ usage. Each word turns green, yellow or red (usage: your plan's weekly limit against how far through the week you are, cyan when you have spare to spend before it resets); click a word for its details.",
+      "version": "0.20.0",
+      "license": "MIT"
+    }
+  ]
+}

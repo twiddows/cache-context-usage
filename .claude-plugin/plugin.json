@@ -1,0 +1,32 @@
+{
+  "name": "cache-context-usage",
+  "version": "0.20.0",
+  "description": "A one-line bar above the Claude Code prompt: cache │ context │ usage. Each word turns green, yellow or red (usage: your plan's weekly limit against how far through the week you are, cyan when you have spare to spend before it resets); click a word for its details.",
+  "author": {
+    "name": "twiddows"
+  },
+  "repository": "https://github.com/twiddows/cache-context-usage",
+  "license": "MIT",
+  "userConfig": {
+    "style": {
+      "type": "string",
+      "title": "How the clock shows",
+      "description": "tray (the default): the words cache, context and usage at the right of the line, each opening its details when clicked; a red item opens by itself. full: the whole line all the time, as the original cache-clock. CACHE_CLOCK_STYLE overrides it.",
+      "options": [
+        "tray",
+        "full"
+      ],
+      "default": "tray"
+    },
+    "onWarning": {
+      "type": "string",
+      "title": "When the cache is about to go cold",
+      "description": "What to do at the warning if you haven't replied. off (the default here): just the toast. handoff: Claude writes a per-session HANDOFF-<id>.md in the project root.",
+      "options": [
+        "off",
+        "handoff"
+      ],
+      "default": "off"
+    }
+  }
+}
