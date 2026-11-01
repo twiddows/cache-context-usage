@@ -10,7 +10,9 @@ Each word turns **green**, **yellow** or **red** so you can see at a glance wher
 its details on the left of the same line; click again to close them. A red item opens its details by itself.
 
 Built on Ray Amjad's [cache-clock](https://github.com/ray-amjad/claude-code-mods/tree/main/plugins/cache-clock)
-mod (MIT).
+mod (MIT), as my capstone project for the **Chase AI masterclass**.
+[Chase AI](https://www.youtube.com/@chaseai) is a YouTube channel about building real tools with Claude Code and AI
+agents; the masterclass walks through it hands-on, and cache-clock was one of the mods in its lessons.
 
 **cache** clicked: green, with the time until the prompt cache goes cold
 
