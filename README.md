@@ -12,6 +12,18 @@ its details on the left of the same line; click again to close them. A red item 
 Built on Ray Amjad's [cache-clock](https://github.com/ray-amjad/claude-code-mods/tree/main/plugins/cache-clock)
 mod (MIT).
 
+**cache** clicked: green, with the time until the prompt cache goes cold
+
+![cache details open, green](docs/cache.png)
+
+**context** at 74% of the window: red, so its details opened by themselves
+
+![context details open, red](docs/context.png)
+
+**usage** clicked: 84% through the week with 31% used, well under pace, so green
+
+![usage details open, green](docs/usage.png)
+
 ## What the words mean
 
 | word | green | yellow | red |
